@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+	margin: 5em auto;
+	max-width: 20em;
+}
+
+.main-input {
+	font-size: 2em;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 0.01em solid rgb(221, 219, 219);
+	outline: none;
+	margin-bottom: 0.5em;
+}
+
+.main-input::placeholder {
+	color: rgb(190, 185, 185);
+	font-size: 1em;
+	font-family: "Montserrat", sans-serif;
+}
+
+label {
+	margin-left: 2.8em;
+	font-size: 1.4em;
+	color: rgb(128, 125, 125);
+	font-weight: 600;
+}
+
+.item {
+	position: relative;
+	margin-top: 1em;
+}
+
+input[type="radio"] {
+	position: absolute;
+	border-radius: 50%;
+	transform: translateY(-100%);
+	width: 1.5em;
+	height: 1.5em;
+}
